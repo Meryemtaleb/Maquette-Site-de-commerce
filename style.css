@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    width: 800px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-end {
+    justify-content: flex-end;
+
+}
+
+.justify-between {
+    justify-content: space-between;
+
+}
+
+
+.flex-column {
+    flex-direction: column;
+
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.backgroundblack {
+    background-color: black;
+}
+
+.backgroundgrey {
+    background-color: #373737;
+}
+
+.half {
+    width: 50%;
+
+}
+
+.color_yellow {
+    color: #f1c40f;
+}
+
+.color_white {
+    color: #f4f4f4;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.text-center {
+    text-align: right;
+}
+
+/*HEADER*/
+header {
+    padding-top: 2px;
+}
+
+.icon-account {
+    background: url(img/user.png) no-repeat center;
+    background-size: 65%;
+
+}
+
+.icon-cart {
+    background: url(img/carte.png) no-repeat center;
+    background-size: 65%;
+}
+
+nav li {
+    padding: 15px 20px;
+}
+
+nav li:nth-of-type(1),
+nav li:nth-of-type(3) {
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/*MAIN*/
+
+#background {
+    height: 300px;
+    background: url(img/l.jpg) center no-repeat;
+}
+
+#product {
+    padding: 20px 0 40px 0;
+
+}
+
+.backgroundwhite {
+    background-color: #f4f4f4;
+}
+
+article {
+    width: 300px;
+    margin: 20px;
+
+}
+
+.desc_part {
+    -webkit-box-shadow: 2px 3px 15px -3px #000000;
+    box-shadow: 2px 3px 15px -3px #000000;
+    margin-bottom: 10px;
+    border-radius: 2px;
+
+}
+
+.tag {
+    border: 2mm* ridge rgb(78, 74, 74);
+    position: relative;
+    left: 260px;
+    top: 20px;
+    font-size: 20px;
+
+}
+
+.img-desc {
+    height: 270px;
+
+}
+
+article:nth-of-type(1) .img-desc {
+    background: url(./img/1.jpg) no-repeat;
+    background-size: 100%;
+}
+
+article:nth-of-type(2) .img-desc {
+    background: url(./img/2.jpg) no-repeat;
+    background-size: 100%;
+}
+
+article:nth-of-type(3) .img-desc {
+    background: url(./img/3.jpg) no-repeat;
+    background-size: 100%;
+}
+
+article:nth-of-type(4) .img-desc {
+    background: url(./img/4.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.purchasePart {
+    padding: 0 10px;
+}
+
+button {
+    border-radius: 0;
+    color: white;
+    width: 150px;
+    line-height: 20px;
+    border: 0;
+    padding: 5px;
+
+}
+
+.price_section {
+    position: relative;
+
+}
+
+.price_section::after {
+    content: "";
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%);
+    ;
+    position: absolute;
+    height: 3px;
+    width: 80px;
+    top: 30px;
+    left: 10px;
+}
+
+.previous_price {
+    text-decoration: line-through;
+
+}
+
+.new_price {
+    font-size: 25px;
+
+}
+
+/*footer*/
+footer {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.verticalBar {
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    top: -40px;
+
+}
+
+#sub_menu {
+    position: relative;
+    top: -10px;
+}
+
+#sub_menu ul {
+    background-color: #3d787c;
+    padding: 15px;
+    width: 400px;
+    border: px solid rgba(13, 134, 53, 0.5);
+    border-radius: 3px;
+
+}
+
+#sub_menu ul li:nth-of-type(2):before,
+#sub_menu ul li:nth-of-type(3):before,
+#sub_menu ul li:nth-of-type(4):before {
+    content: "";
+    background-color: #d3d3d3;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    position: relative;
+  
+}
+
+.list_services i {
+    background-size: 100%;
+    display: inline-block;
+}
+
+.icon_book {
+    background: url(/img/book.png) no-repeat center;
+  
+}
+
+.icon_truck {
+    background: url(/img/tuck.png) no-repeat center;
+  
+}
+
+.icon_lock {
+    background: url(/img/lock.png) no-repeat center;
+   
+}
+
+.icon_thumb {
+    background: url(/img/thumb.png) no-repeat center;
+  
+}
+
+.list_services li {
+    width: 160px;
+    margin: 0 20px;
+}
+
+.icon_fb {
+    background: url(img/fb.png)no-repeat center;
+    background-size: 50%;
+
+}
+
+.icon_tw {
+    background: url(img/tw.png)no-repeat center;
+
+}
+
+.icon_ln {
+    background: url(img/link.png)no-repeat center;
+
+}
+
+.icon_inst {
+    background: url(img/inst.png)no-repeat center;
+    
+}
